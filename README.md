@@ -76,6 +76,7 @@ end)
 	
         --Ingredients
 	["paan-leaves"] 				 = {["name"] = "paan-leaves", 			 	  	["label"] = "Paan Leaves", 			["weight"] = 125, 		["type"] = "item", 					["image"] = "paan-leaves.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["chuna"] 				 = {["name"] = "chuna", 			 	  	["label"] = "Chuna", 			["weight"] = 125, 		["type"] = "item", 					["image"] = "chuna.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["supari"] 				 	     = {["name"] = "supari", 			 	  	["label"] = "Supari", 			["weight"] = 125, 		["type"] = "item", 					["image"] = "supari.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["tobacco"] 				     = {["name"] = "tobacco", 			 	  	["label"] = "Tobacco", 			["weight"] = 125, 		["type"] = "item", 		["image"] = "tobacco.png", 		    	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["mint"] 				         = {["name"] = "mint", 			 	        ["label"] = "Mint", 				["weight"] = 125, 		["type"] = "item", 			["image"] = "mint.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
