@@ -140,23 +140,3 @@ Config.BossMenus = {
 }
 
 ```
-
-## Insert into @qb-target - init.lua - config.targetmodels
-``` 
-["paanshopgarage"] = {
-			models = {
-				"a_m_y_beachvesp_01"
-			},
-			options = {
-				{
-					type = "client",
-					event = "garage:PaanShopGarage",
-					icon = "fas fa-car",
-					label = "Paan Shop Garage",
-					job = "paan",
-				}
-			},
-			distance = 2.5,
-		},
-
-```
