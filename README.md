@@ -1,5 +1,5 @@
-# pi-paanshop V3
-Burgershot Job For your server
+# pi-paanshop
+Paan Shop Job For your server
 
 This was not created by me, I have just updated it to QB-Menu,QB-INPUT and Fixed the Garage
 
