@@ -48,7 +48,8 @@ QBCore.Functions.CreateCallback('pi-paanshop:server:get:ingredientMasalaPaan', f
     local mint = Player.Functions.GetItemByName("mint")
     local mukhwass = Player.Functions.GetItemByName("mukhwass")
     local paan = Player.Functions.GetItemByName("paan-leaves")
-    if supari ~= nil and tobacco ~= nil and mint ~= nil and mukhwass ~= nil and paan ~= nil then
+    local chuna = Player.Functions.GetItemByName("chuna")
+    if supari ~= nil and tobacco ~= nil and mint ~= nil and mukhwass ~= nil and paan ~= nil and chuna ~= nil then
         cb(true)
     else
         cb(false)
@@ -63,7 +64,8 @@ QBCore.Functions.CreateCallback('pi-paanshop:server:get:ingredientSweetPaan', fu
     local mint = Player.Functions.GetItemByName("mint")
     local mukhwass = Player.Functions.GetItemByName("mukhwass")
     local paan = Player.Functions.GetItemByName("paan-leaves")
-    if gulkand ~= nil and cherry ~= nil and mint ~= nil and mukhwass ~= nil and paan ~= nil then
+    local chuna = Player.Functions.GetItemByName("chuna")
+    if gulkand ~= nil and cherry ~= nil and mint ~= nil and mukhwass ~= nil and paan ~= nil and chuna ~= nil then
         cb(true)
     else
         cb(false)
@@ -78,7 +80,8 @@ QBCore.Functions.CreateCallback('pi-paanshop:server:get:ingredientChocolatePaan'
     local mint = Player.Functions.GetItemByName("mint")
     local vanilla = Player.Functions.GetItemByName("vanilla-essence")
     local paan = Player.Functions.GetItemByName("paan-leaves")
-    if chocolate ~= nil and cherry ~= nil and mint ~= nil and vanilla ~= nil and paan ~= nil then
+    local chuna = Player.Functions.GetItemByName("chuna")
+    if chocolate ~= nil and cherry ~= nil and mint ~= nil and vanilla ~= nil and paan ~= nil and chuna ~= nil then
         cb(true)
     else
         cb(false)
