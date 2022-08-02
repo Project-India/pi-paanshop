@@ -7,7 +7,7 @@ Me
 https://github.com/Project-India
 
 Join My Server
-https://discord.gg/nbMazBXaVa
+https://discord.gg/n4XH2pACGM
 
 
 ## Dependencies :
