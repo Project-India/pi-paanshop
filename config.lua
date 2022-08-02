@@ -8,7 +8,7 @@ Config.SQL = 'oxmysql' --- oxmysql or ghmattisql
 
 Config.Items = {
 label = "Shop",
-    slots = 8,
+    slots = 9,
     items = {
         [1] = {
             name = "supari",
@@ -73,6 +73,14 @@ label = "Shop",
             info = {},
             type = "item",
             slot = 8,
+        },
+        [9] = {
+            name = "chuna",
+            price = 200,
+            amount = 100,
+            info = {},
+            type = "item",
+            slot = 9,
         },
     }
 }
