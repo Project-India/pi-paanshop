@@ -171,7 +171,7 @@ RegisterNetEvent('pi-paanshop:PaanMenu', function(data)
 
         {
             header = "Masala Paan",
-            txt = "Supari , Tobacco , Mint , Mukhwass , Paan Leaves",
+            txt = "Supari , Tobacco , Mint , Mukhwass , Paan Leaves , Chuna",
             params = {
                 event = "pi-paanshop:MasalaPaan",
                 args = {
@@ -181,7 +181,7 @@ RegisterNetEvent('pi-paanshop:PaanMenu', function(data)
         },
         {
             header = "Sweet Paan",
-            txt = "Gulkand , Cherry , Mint , Mukhwass , Paan Leaves",
+            txt = "Gulkand , Cherry , Mint , Mukhwass , Paan Leaves , Chuna",
             params = {
                 event = "pi-paanshop:SweetPaan",
                 args = {
@@ -191,7 +191,7 @@ RegisterNetEvent('pi-paanshop:PaanMenu', function(data)
         },
         {
             header = "Chocolate Paan",
-            txt = "Chocolate , Cherry , Mint , Vanilla Essence , Paan Leaves",
+            txt = "Chocolate , Cherry , Mint , Vanilla Essence , Paan Leaves , Chuna",
             params = {
                 event = "pi-paanshop:ChocolatePaan",
                 args = {
@@ -291,6 +291,12 @@ RegisterNetEvent("pi-paanshop:bill", function()
         TriggerServerEvent("pi-paanshop:bill:player", bill.id, bill.amount)
     end
 end)
+
+
+
+
+
+
 
 
 
