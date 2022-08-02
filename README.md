@@ -7,6 +7,10 @@ https://github.com/Project-India
 Join My Server
 https://discord.gg/n4XH2pACGM
 
+# Preview
+
+(https://youtu.be/StsU8jXeTWQ)
+
 
 ## Dependencies :
 
