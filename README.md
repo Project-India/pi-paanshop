@@ -57,15 +57,12 @@ end)
 
 ## Insert into @qb-smallresources --> config.lua
 ```
-Consumeables = {
-
 --Food 
 
 ["sweet-paan"] = math.random(35, 54),
 ["paan-paan"] = math.random(35, 54),
 ["masala-paan"] = math.random(35, 54),
 
-} 
 ```
 
 ## Insert into @qb-core/shared/items.lua 
@@ -77,7 +74,7 @@ Consumeables = {
 	["sweet-paan"] 				     = {["name"] = "sweet-paan", 			 	["label"] = "Sweet Paan", 					["weight"] = 310, 		["type"] = "item", 		["image"] = "sweet-paan.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
 	["paan-pack"] 		 	         = {["name"] = "paan-pack", 			["label"] = "A Pack Of Paans", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "paan-pack.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Amazing Paan Pack with a chance of a toy."},
 	
-    --Ingredients
+        --Ingredients
 	["paan-leaves"] 				 = {["name"] = "paan-leaves", 			 	  	["label"] = "Paan Leaves", 			["weight"] = 125, 		["type"] = "item", 					["image"] = "paan-leaves.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["supari"] 				 	     = {["name"] = "supari", 			 	  	["label"] = "Supari", 			["weight"] = 125, 		["type"] = "item", 					["image"] = "supari.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["tobacco"] 				     = {["name"] = "tobacco", 			 	  	["label"] = "Tobacco", 			["weight"] = 125, 		["type"] = "item", 		["image"] = "tobacco.png", 		    	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
@@ -90,12 +87,11 @@ Consumeables = {
 	["burger-toy1"] 		 		 = {["name"] = "burger-toy1", 					["label"] = "Action Figure", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "burger-toy1.png", 		["unique"] = true, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "An Action Figure From the late 90's"},
 	["burger-toy2"] 		 		 = {["name"] = "burger-toy2", 					["label"] = "Pink Teddy", 				["weight"] = 50, 		["type"] = "item", 		["image"] = "burger-toy2.png", 			["unique"] = true, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "A Fluffy Pink Teddy from the Atic"},
 
-}
 
 ```
 ## Insert into @qb-core/shared/jobs.lua 
 ```
-QBShared.Jobs = {
+
     ["paan"] = {
 		label = "Paan Shop",
 		defaultDuty = true,
@@ -123,7 +119,7 @@ QBShared.Jobs = {
             },
         },
 	},
-}		
+		
 ```
 
 
