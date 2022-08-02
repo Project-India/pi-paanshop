@@ -1,8 +1,6 @@
 # pi-paanshop
 Paan Shop Job For your server
 
-This was not created by me, I have just updated it to QB-Menu,QB-INPUT and Fixed the Garage
-
 Me
 https://github.com/Project-India
 
