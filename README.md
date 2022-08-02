@@ -141,8 +141,6 @@ Config.BossMenus = {
 
 ```
 
-# if not making use of qb-target no need to insert this into qb-target
-
 ## Insert into @qb-target - init.lua - config.targetmodels
 ``` 
 ["paanshopgarage"] = {
