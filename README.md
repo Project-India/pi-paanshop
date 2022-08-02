@@ -85,8 +85,6 @@ end)
 	["cherry"] 				         = {["name"] = "cherry", 			 	    ["label"] = "Cherry", 		["weight"] = 1500, 		["type"] = "item", 			["image"] = "cherry.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["chocolate"] 				 	 = {["name"] = "chocolate", 			 		["label"] = "Chocolate", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "chocolate.png", 	        ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
 	["vanilla-essence"] 		     = {["name"] = "vanilla-essence", 			 	 ["label"] = "Vanilla Essence", 		["weight"] = 1500, 		["type"] = "item", 			["image"] = "vanilla-essence.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
-	["burger-toy1"] 		 		 = {["name"] = "burger-toy1", 					["label"] = "Action Figure", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "burger-toy1.png", 		["unique"] = true, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "An Action Figure From the late 90's"},
-	["burger-toy2"] 		 		 = {["name"] = "burger-toy2", 					["label"] = "Pink Teddy", 				["weight"] = 50, 		["type"] = "item", 		["image"] = "burger-toy2.png", 			["unique"] = true, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "A Fluffy Pink Teddy from the Atic"},
 
 
 ```
