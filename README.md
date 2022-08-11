@@ -3,9 +3,10 @@ Paan Shop Job For your server
 
 Me
 https://github.com/Project-India
+# Support
 
-Join My Server
-https://discord.gg/y2h3NNxydu
+Join Our Server For Support
+https://discord.gg/Kd5B3KPnTv
 
 # Preview
 
