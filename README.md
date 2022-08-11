@@ -5,7 +5,7 @@ Me
 https://github.com/Project-India
 
 Join My Server
-https://discord.gg/n4XH2pACGM
+https://discord.gg/y2h3NNxydu
 
 # Preview
 
