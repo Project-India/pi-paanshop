@@ -105,7 +105,7 @@ end)
                 payment = 75
             },
 			['2'] = {
-                name = "Burger Flipper",
+                name = "Paan Maker",
                 payment = 100
             },
 			['3'] = {
